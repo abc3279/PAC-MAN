@@ -14,7 +14,7 @@
 #include "skill.h"
 #include "player.h" 
 
-void skill_training(void); // skill training.h ¸¦ ¹Ø¿¡ µÖ¼­ ³ù¾î¿ë 
+void skill_training(void); // skill training.h ï¿½ï¿½ ï¿½Ø¿ï¿½ ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ 
 
 int main(void)
 {
@@ -23,9 +23,8 @@ int main(void)
 	else
 	skill_training();
 	end_drawingUI();
-	exit(1); // Àç±ÍÇÔ¼ö ÇÏ°í µ¹¾Æ°¥¶§ ¹®Á¦»ý°Ü¼­ Àç±ÍÇÔ¼ö¿¡¼­ È£ÃâÇÑ main ¿¡¼­ ÇÁ·Î±×·¥ ÀÚÃ¼¸¦ ³¡³¾ ¼ö ÀÖµµ·Ï ÇØ³ù½À´Ï´Ù. 
+	exit(1); // ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ï¿½ï¿½ main ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Öµï¿½ï¿½ï¿½ ï¿½Ø³ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. 
 	return 0;
 }
 
 #include "skill_training.h"
-
